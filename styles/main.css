@@ -4,3 +4,12 @@
     font-size: 50pt
     ;
 }
+h1 {
+    color: red
+}
+body{
+    padding: 20px;
+    background-image: url(https://lh3.googleusercontent.com/6SS5HcwBfIy0bl6RaLI93-gR6yzGO16_Z73an8ct9T9T702GXvChmVF7TqDYkO_I8PiOackjQ6RnCxRVNWY41PdTR2k7YZzA0jsQxV1WPr0D1cjMs7QTvgmbDmkgAPG4lEOnSI_D0h4=w2400) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
