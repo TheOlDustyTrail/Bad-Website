@@ -5,7 +5,9 @@
 }
 
 h1 {
-    color: red
+    color: red;
+    font-size: 100pt;
+    font-style: oblique;
 }
 
 body {
@@ -13,6 +15,32 @@ body {
     background-image: url(https://lh3.googleusercontent.com/6SS5HcwBfIy0bl6RaLI93-gR6yzGO16_Z73an8ct9T9T702GXvChmVF7TqDYkO_I8PiOackjQ6RnCxRVNWY41PdTR2k7YZzA0jsQxV1WPr0D1cjMs7QTvgmbDmkgAPG4lEOnSI_D0h4=w2400);
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+a {
+   font-size: 25pt;
+   color: aquamarine; 
+   text-align: right;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+.shit {
+    animation: slide-in 4000ms;
+    animation-timing-function: linear;
+    font-size: 75pt;
+    font-family: cursive;
+    animation-iteration-count: infinite;
+    color: rgb(104, 4, 4);
+    text-decoration: underline;
+
  
     margin: 0;
     width: 100vw;
@@ -42,5 +70,6 @@ header {
 
 ul {
     list-style-type: square;
+
 
 }
